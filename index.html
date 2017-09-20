@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link href="normalize.css" type="text/css" rel="stylesheet">
+		<link href="styles.css" type="text/css" rel="stylesheet">
+		<title>Number Guesser</title>
+	</head>
+
+	<body>
+
+		<header>
+			<h1>Number <span>Guesser</span></h1>
+		</header>
+
+		<section>
+
+			<!-- MAIN BUTTONS AND INPUT BOX -->
+
+			<input id="userGuess" type="text" placeholder="Enter your guess" onclick="this.select()" autofocus></input>
+
+			<button id="guessButton" class="top_buttons dark_bg" type="submit" disabled>Guess<span class="hotkey-adjust"> &crarr;</span></button>
+
+			<button id="clearButton" class="top_buttons dark_bg" type="reset" disabled><span class="hotkey">(</span>C<span class="hotkey">)</span>lear</button>
+
+			<p id="topText">Guess my number between 0 and 100!</p>
+			<h2 id="displayGuess"></h2>
+			<p id="bottomText"></p>
+			
+			<!-- MIN / MAX BOXES -->
+
+			<article>
+				<input id="inputMin" type="text" value="0" onclick="this.select()"</input>
+
+				<p id="minMaxText"><span class="arrows">&#8592</span>RANGE<span class="arrows">&#8594</span></p>
+
+				<input id="inputMax" type="text" value="100" onclick="this.select()"</input>
+			</article>
+
+			<!-- RESET BUTTON -->
+
+			<button id="resetButton" type="reset"><span class="hotkey">(</span>R<span class="hotkey">)</span>eset</button>
+
+		</section>
+		<script src="scripts.js"></script>
+
+	</body>
+
+</html>
+
+
+
+
+
+

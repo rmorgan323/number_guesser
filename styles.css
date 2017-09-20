@@ -1,0 +1,178 @@
+* {
+	box-sizing: border-box;
+	font-weight: 300;
+	margin: 0;
+}
+
+body {
+	font-family: Open Sans;
+	font-weight: 300;
+}
+
+header {
+	background-color: #404041;
+	padding: 10px;
+}
+
+section {
+	display: block;
+	margin: auto;
+	width: 264px;
+}
+
+article {
+	display: block;
+	margin: auto;
+	width: 184px;
+}
+
+h1 {
+	color: #ed458b;
+	font-size: 34px;
+	font-weight: 700;
+	margin: 0;
+	text-align: center;
+}
+
+h2 {
+	color: #eb008b;
+	font-size: 113px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+span {
+	color: #e6e7e8;
+	font-weight: 300;
+}
+
+.hotkey {
+	bottom: 1px;
+	opacity: .6;
+	position: relative;
+}
+
+.hotkey-adjust {
+	opacity: .6;
+	position: relative;
+	top: 2px;
+}
+
+#userGuess {
+	border: 1px solid #d0d2d3;
+	display: block;
+	font-size: 16px;
+	height: 26px;
+	margin: 30px auto 25px;
+	padding-left: 5px;
+	width: 264px;
+}
+
+#userGuess::placeholder {
+	color: #d0d2d3;
+	font-family: Open Sans;
+	margin-left: 5px;
+}
+
+.top_buttons, 
+#resetButton {
+	background-color: #d0d2d3;
+	border: none;
+	border-radius: 50px;
+	color: white;
+	font-size: 15px;
+	transition: 300ms ease;
+	width: 100px;
+}
+
+.top_buttons {
+	display: inline-block;
+	height: 25px;
+	margin: auto;
+	width: 122px;
+}
+
+.dark_bg {
+	background-color: #929497;
+	transition: 300ms ease;
+}
+
+.dark_bg:hover {
+	background-color: #eb008b;
+	transition: 300ms ease;
+}
+
+#guessButton {
+	margin-right: 7px;
+}
+
+
+#clearButton {
+	margin-left: 7px;
+}
+
+#resetButton {
+	background-color: #929497;
+	display: block;
+	font-size: 13px;
+	height: 22px;
+	margin: 30px auto;
+	width: 264px;
+}
+
+#resetButton:hover {
+	background-color: #eb008b;
+	transition: 300ms ease;
+}
+
+#topText {
+	margin-top: 35px;
+	width: 320px;
+	position: relative;
+	right: 28px;
+}
+
+#displayGuess {
+	height: 138px;
+}
+
+#bottomText {
+	height: 19px;
+	margin-bottom: 32px;
+	margin-top: -7px;
+}
+
+.arrows {
+	color: #d0d2d3;
+	font-size: 16px;
+	font-weight: bold;
+	position: relative;
+	top: 2px;
+}
+
+#inputMin, 
+#inputMax, 
+#minMaxText {
+	display: inline-block;
+	width: 85px;
+}
+
+#inputMin, 
+#inputMax {
+	border: 1px solid #d0d2d3;
+	width: 45px;
+	text-align: right;
+}
+
+#minMaxText {
+	bottom: 1px;
+	color: #929497;
+	font-size: .7em;
+	font-weight: bold;
+	position: relative;
+}
+
+
